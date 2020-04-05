@@ -14,7 +14,8 @@ let colorSates = {
   "" : "red"
 }
 
-let articleHeart = document.querySelectorAll(".likes")
+let articleHeart = document.querySelectorAll(".like");
+
 
 
 //------------------------------------------------------------------------------
