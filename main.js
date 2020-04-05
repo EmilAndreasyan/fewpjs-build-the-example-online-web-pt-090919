@@ -20,7 +20,7 @@ function likeCallback(e){
   mimicServerCall("bogusUrl")
   .then(function(serverMessage){
     heart.innerText = glyphStates[heart.innerText]
-    heart.style.color = colorSates[heart.innerText]
+    heart.style.color = colorSates[heart.style.color]
   })
 }
 
