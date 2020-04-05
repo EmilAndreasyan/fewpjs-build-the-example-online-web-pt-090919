@@ -4,13 +4,10 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-EMPTY_HEART.addEventListner('click', mimicServerCall)
-
-fetch("http://mimicServer.example.com")
-  .then(resp => resp.json())
-  .then((obj => {
-    
-  }))
+let glyphStates = {
+  '♡': '♥',
+  '♥': '♡'
+}
 
 
 
