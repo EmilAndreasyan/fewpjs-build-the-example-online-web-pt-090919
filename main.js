@@ -15,7 +15,9 @@ let colorSates = {
 }
 
 let articleHeart = document.querySelectorAll(".like");
-function likeCallback
+function likeCallback(e){
+  let like = e.target;
+}
 
 
 //------------------------------------------------------------------------------
