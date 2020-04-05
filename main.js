@@ -17,6 +17,7 @@ let colorSates = {
 let articleHeart = document.querySelectorAll(".like");
 function likeCallback(e){
   let heart = e.target;
+  mimicServerCall(bogusU)
 }
 
 
