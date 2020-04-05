@@ -23,7 +23,7 @@ function likeCallback(e){
     heart.style.color = colorSates[heart.style.color];
   })
   .catch(function(error){
-    
+    document.getElementById("")
   })
 }
 
