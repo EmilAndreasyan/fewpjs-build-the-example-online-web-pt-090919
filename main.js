@@ -22,7 +22,9 @@ function likeCallback(e){
     heart.innerText = glyphStates[heart.innerText];
     heart.style.color = colorSates[heart.style.color];
   })
-  .catch()
+  .catch(function(error){
+    
+  })
 }
 
 
