@@ -10,8 +10,8 @@ let glyphStates = {
 }
 
 let colorSates = {
-  "red": 0,
-  0: "red"
+  "red" : "",
+  "" : "red"
 }
 
 
