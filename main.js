@@ -24,7 +24,11 @@ function likeCallback(e){
   })
   .catch(function(error){
     document.getElementById("modal").className = "";
-  })
+  });
+}
+
+for (let glyph of articleHeart) {
+  glyph.addEventListener()
 }
 
 
