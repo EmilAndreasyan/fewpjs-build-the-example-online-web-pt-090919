@@ -18,7 +18,8 @@ let articleHeart = document.querySelectorAll(".like");
 function likeCallback(e){
   let heart = e.target;
   mimicServerCall("bogusUrl")
-  .then(function(server))
+  .then(function(serverMessage))
+  .then()
 }
 
 
