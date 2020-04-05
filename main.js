@@ -19,7 +19,8 @@ function likeCallback(e){
   let heart = e.target;
   mimicServerCall("bogusUrl")
   .then(function(serverMessage){
-    
+    heart.innerText = glyphStates;
+    heart.style.color = colorSates;
   })
 }
 
